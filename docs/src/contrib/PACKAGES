@@ -8,3 +8,13 @@ License: Artistic-2.0
 MD5sum: 6b5db3324185b3c4ed4ed1d956354e12
 NeedsCompilation: no
 
+Package: skleid
+Version: 1.6.9
+Depends: R (>= 3.3.0)
+Imports: Biostrings, muscle, magrittr, markdown, RCurl, shiny,
+        shinyFiles, utils
+Suggests: knitr
+License: file LICENSE
+MD5sum: c5af3d3f09624e70f4bd93ad9e074b3f
+NeedsCompilation: no
+
