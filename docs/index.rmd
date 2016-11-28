@@ -15,17 +15,28 @@ srcdir <- 'src/contrib'
 source("../get_file.R")
 ```
 
-
-
-## seqcombo
-
 ```r
 repo = c("https://cran.rstudio.com",
          "https://bioconductor.org/packages/release/bioc",
          "https://guangchuangyu.github.io/drat")
+```
+
+## [seqcombo](https://github.com/GuangchuangYu/seqcombo)
+
+```r
 install.packages("seqcombo", repo=repo)
 ```
 
 - windows binary: `r get_file(bindir, 'seqcombo')`
 - package source: `r get_file(srcdir, 'seqcombo')`
+
+
+## [skleid](https://github.com/GuangchuangYu/skleid)
+
+```r
+install.packages("skleid", repo=repo)
+```
+
+- windows binary: `r get_file(bindir, 'skleid')`
+- package source: `r get_file(srcdir, 'skleid')`
 
