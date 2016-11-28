@@ -1,0 +1,31 @@
+---
+title: Guangchuang's repo for R packages
+author: Guangchuang Yu
+date: November 28, 2016
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+
+```{r echo=FALSE}
+bindir <- max(list.files('bin/windows/contrib', full.names=T))
+srcdir <- 'src/contrib'
+source("../get_file.R")
+```
+
+
+
+## seqcombo
+
+```r
+repo = c("https://cran.rstudio.com",
+         "https://bioconductor.org/packages/release/bioc",
+         "https://guangchuangyu.github.io/drat")
+install.packages("seqcombo", repo=repo)
+```
+
+- windows binary: `r get_file(bindir, 'seqcombo')`
+- package source: `r get_file(srcdir, 'seqcombo')`
+
