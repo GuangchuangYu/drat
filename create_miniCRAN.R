@@ -10,6 +10,6 @@ create_miniCRAN <- function(pkgs) {
 }
 
 
-pkgs <- c("seqcombo")
+## pkgs <- c("seqcombo")
 
-create_miniCRAN(pkgs)
+## create_miniCRAN(pkgs)
