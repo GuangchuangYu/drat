@@ -1,11 +1,11 @@
 Package: seqcombo
-Version: 0.0.3
+Version: 0.0.4
 Depends: R (>= 3.3.0)
 Imports: Biostrings, cowplot, dplyr, ggplot2, grid, magrittr, methods,
         stats4
 Suggests: knitr
 License: Artistic-2.0
-MD5sum: 6b5db3324185b3c4ed4ed1d956354e12
+MD5sum: 691adf0fe4549cb8372f01a8b3b0f8a6
 NeedsCompilation: no
 
 Package: skleid
