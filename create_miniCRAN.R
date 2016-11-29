@@ -6,7 +6,7 @@ create_miniCRAN <- function(pkgs) {
               "https://guangchuangyu.github.io/drat")
     pkgList <- pkgDep(pkgs, repos=repo, type="source", suggests = FALSE)
     makeRepo(pkgList, path="docs", repos=repo,
-             type=c("source", "win.binary"))
+             type=c("source", "win.binary")) # "mac.binary"
 }
 
 
