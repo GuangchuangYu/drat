@@ -27,9 +27,12 @@ repo = c("https://cran.rstudio.com",
 install.packages("seqcombo", repo=repo)
 ```
 
+- vignette: [sequence recombination visualization](https://guangchuangyu.github.io/seqcombo/)
 - windows binary: `r get_file(bindir, 'seqcombo')`
 - package source: `r get_file(srcdir, 'seqcombo')`
 
+
+<!--
 
 ## [skleid](https://github.com/GuangchuangYu/skleid)
 
@@ -40,3 +43,4 @@ install.packages("skleid", repo=repo)
 - windows binary: `r get_file(bindir, 'skleid')`
 - package source: `r get_file(srcdir, 'skleid')`
 
+-->
