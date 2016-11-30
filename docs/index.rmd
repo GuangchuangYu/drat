@@ -1,13 +1,38 @@
 ---
 title: Guangchuang's repo for R packages
-author: Guangchuang Yu
-date: November 28, 2016
+author: "\\
+
+	Guangchuang Yu\\
+
+        School of Public Health, The University of Hong Kong"
+date: "`r Sys.Date()`"
 output:
   prettydoc::html_pretty:
     theme: cayman
     highlight: github
 ---
 
+I have developed **3** packages on `CRAN` and **7** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install. 
+
+If you are interesting, please visit their homepage to learn more.
+
++ CRAN
+	- [dlstats](http://cran.r-project.org/package=dlstats): `r ypages:::packageTitle('dlstats', 'CRAN')`
+	- [emojifont](http://cran.r-project.org/package=emojifont): `r ypages:::packageTitle('emojifont', 'CRAN')`
+	- [rvcheck](http://cran.r-project.org/package=rvcheck): `r ypages:::packageTitle('rvcheck', 'CRAN')`
++ Bioconductor
+	- [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker): `r ypages:::packageTitle('ChIPseeker', 'BioC')`
+	- [clusterProfiler](https://guangchuangyu.github.io/clusterProfiler): `r ypages:::packageTitle('clusterProfiler', 'BioC')`
+	- [DOSE](https://guangchuangyu.github.io/DOSE): `r ypages:::packageTitle('DOSE', 'BioC')`
+	- [ggtree](https://guangchuangyu.github.io/ggtree): `r ypages:::packageTitle('ggtree', 'BioC')`
+	- [GOSemSim](https://guangchuangyu.github.io/GOSemSim): `r ypages:::packageTitle('GOSemSim', 'BioC')`
+	- [meshes](https://guangchuangyu.github.io/meshes): `r ypages:::packageTitle('meshes', 'BioC')`
+	- [ReactomePA](https://guangchuangyu.github.io/ReactomePA): `r ypages:::packageTitle('ReactomePA', 'BioC')`
+	
+
+--------------------------------------------------------------------------------------------------
+
+This repo is mainly for my `R` packages that only hosted on `github`.
 
 ```{r echo=FALSE}
 bindir <- max(list.files('bin/windows/contrib', full.names=T))
