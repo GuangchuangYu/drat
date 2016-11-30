@@ -44,7 +44,7 @@ install.packages("seqmagick", repo=repo)
 ## [scatterpie](https://github.com/GuangchuangYu/scatterpie)
 
 ```r
-install.packages("seqcombo", repo=repo)
+install.packages("scatterpie", repo=repo)
 ```
 
 - vignette: [scatter pie plot](https://guangchuangyu.github.io/scatterpie/)

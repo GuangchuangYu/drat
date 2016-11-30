@@ -29,7 +29,7 @@
 [scatterpie](https://github.com/GuangchuangYu/scatterpie)
 ---------------------------------------------------------
 
-    install.packages("seqcombo", repo=repo)
+    install.packages("scatterpie", repo=repo)
 
 -   vignette: [scatter pie
     plot](https://guangchuangyu.github.io/scatterpie/)
