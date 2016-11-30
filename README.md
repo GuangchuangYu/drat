@@ -14,6 +14,29 @@
 -   package source:
     [seqcombo\_0.0.4.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/seqcombo_0.0.4.tar.gz)
 
+[seqmagick](https://github.com/GuangchuangYu/seqmagick)
+-------------------------------------------------------
+
+    install.packages("seqmagick", repo=repo)
+
+-   vignette: [sequence
+    manipulation](https://guangchuangyu.github.io/seqmagick/)
+-   windows binary:
+    [seqmagick\_0.0.5.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.5.zip)
+-   package source:
+    [seqmagick\_0.0.5.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.5.tar.gz)
+
+[scatterpie](https://github.com/GuangchuangYu/scatterpie)
+---------------------------------------------------------
+
+    install.packages("seqcombo", repo=repo)
+
+-   vignette: [scatter pie
+    plot](https://guangchuangyu.github.io/scatterpie/)
+-   windows binary: [NA](https:/guangchuangyu.github.io/drat/NA)
+-   package source:
+    [scatterpie\_0.0.1.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.1.tar.gz)
+
 <!--
 
 ## [skleid](https://github.com/GuangchuangYu/skleid)

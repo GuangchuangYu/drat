@@ -1,3 +1,10 @@
+Package: scatterpie
+Version: 0.0.1
+Depends: R (>= 3.3.0)
+Imports: ggforce, ggplot2, tidyr, utils
+Suggests: knitr, prettydoc
+License: Artistic-2.0
+
 Package: seqcombo
 Version: 0.0.4
 Depends: R (>= 3.3.0)
