@@ -33,7 +33,8 @@
 
 -   vignette: [scatter pie
     plot](https://guangchuangyu.github.io/scatterpie/)
--   windows binary: [NA](https:/guangchuangyu.github.io/drat/NA)
+-   windows binary:
+    [scatterpie\_0.0.1.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.1.zip)
 -   package source:
     [scatterpie\_0.0.1.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.1.tar.gz)
 
