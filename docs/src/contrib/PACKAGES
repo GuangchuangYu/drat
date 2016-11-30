@@ -20,10 +20,10 @@ NeedsCompilation: no
 Package: seqmagick
 Version: 0.0.5
 Depends: R (>= 3.3.0)
-Imports: Biostrings, magrittr, muscle, utils
+Imports: Biostrings, magrittr, muscle, prettydoc, utils
 Suggests: knitr
 License: Artistic-2.0
-MD5sum: 1196a47f8ed009e62c1c483be3f88cde
+MD5sum: 176e102f93f8357352dc7397a1db9077
 NeedsCompilation: no
 
 Package: skleid
