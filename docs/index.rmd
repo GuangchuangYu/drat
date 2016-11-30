@@ -31,6 +31,26 @@ install.packages("seqcombo", repo=repo)
 - windows binary: `r get_file(bindir, 'seqcombo')`
 - package source: `r get_file(srcdir, 'seqcombo')`
 
+## [seqmagick](https://github.com/GuangchuangYu/seqmagick)
+
+```r
+install.packages("seqmagick", repo=repo)
+```
+
+- vignette: [sequence manipulation](https://guangchuangyu.github.io/seqmagick/)
+- windows binary: `r get_file(bindir, 'seqmagick')`
+- package source: `r get_file(srcdir, 'seqmagick')`
+
+## [scatterpie](https://github.com/GuangchuangYu/scatterpie)
+
+```r
+install.packages("seqcombo", repo=repo)
+```
+
+- vignette: [scatter pie plot](https://guangchuangyu.github.io/scatterpie/)
+- windows binary: `r get_file(bindir, 'scatterpie')`
+- package source: `r get_file(srcdir, 'scatterpie')`
+
 
 <!--
 

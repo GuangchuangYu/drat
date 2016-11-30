@@ -1,3 +1,12 @@
+Package: scatterpie
+Version: 0.0.1
+Depends: R (>= 3.3.0)
+Imports: ggforce, ggplot2, tidyr, utils
+Suggests: knitr, prettydoc
+License: Artistic-2.0
+MD5sum: 543bd5d1675884de6b0293b23ef973fa
+NeedsCompilation: no
+
 Package: seqcombo
 Version: 0.0.4
 Depends: R (>= 3.3.0)
@@ -6,6 +15,15 @@ Imports: Biostrings, cowplot, dplyr, ggplot2, grid, magrittr, methods,
 Suggests: knitr
 License: Artistic-2.0
 MD5sum: 691adf0fe4549cb8372f01a8b3b0f8a6
+NeedsCompilation: no
+
+Package: seqmagick
+Version: 0.0.5
+Depends: R (>= 3.3.0)
+Imports: Biostrings, magrittr, muscle, utils
+Suggests: knitr
+License: Artistic-2.0
+MD5sum: 1196a47f8ed009e62c1c483be3f88cde
 NeedsCompilation: no
 
 Package: skleid

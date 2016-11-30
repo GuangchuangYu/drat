@@ -6,6 +6,13 @@ Imports: Biostrings, cowplot, dplyr, ggplot2, grid, magrittr, methods,
 Suggests: knitr
 License: Artistic-2.0
 
+Package: seqmagick
+Version: 0.0.5
+Depends: R (>= 3.3.0)
+Imports: Biostrings, magrittr, muscle, utils
+Suggests: knitr
+License: Artistic-2.0
+
 Package: skleid
 Version: 1.6.9
 Depends: R (>= 3.3.0)
