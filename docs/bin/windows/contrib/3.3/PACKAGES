@@ -17,7 +17,7 @@ Package: seqmagick
 Version: 0.0.5
 Depends: R (>= 3.3.0)
 Imports: Biostrings, magrittr, muscle, utils
-Suggests: knitr
+Suggests: knitr, prettydoc
 License: Artistic-2.0
 
 Package: skleid
