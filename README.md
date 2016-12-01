@@ -39,6 +39,29 @@ This repo is mainly for my `R` packages that only hosted on `github`.
              "https://bioconductor.org/packages/release/bioc",
              "https://guangchuangyu.github.io/drat")
 
+[chinamap](https://github.com/GuangchuangYu/chinamap)
+-----------------------------------------------------
+
+    install.packages("scatterpie", repo=repo)
+
+-   vignette: [China Map](https://guangchuangyu.github.io/chinamap/)
+-   windows binary:
+    [chinamap\_0.2.0.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/chinamap_0.2.0.zip)
+-   package source:
+    [chinamap\_0.2.0.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/chinamap_0.2.0.tar.gz)
+
+[scatterpie](https://github.com/GuangchuangYu/scatterpie)
+---------------------------------------------------------
+
+    install.packages("scatterpie", repo=repo)
+
+-   vignette: [scatter pie
+    plot](https://guangchuangyu.github.io/scatterpie/)
+-   windows binary:
+    [scatterpie\_0.0.3.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.3.zip)
+-   package source:
+    [scatterpie\_0.0.3.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.3.tar.gz)
+
 [seqcombo](https://github.com/GuangchuangYu/seqcombo)
 -----------------------------------------------------
 
@@ -62,18 +85,6 @@ This repo is mainly for my `R` packages that only hosted on `github`.
     [seqmagick\_0.0.5.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.5.zip)
 -   package source:
     [seqmagick\_0.0.5.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.5.tar.gz)
-
-[scatterpie](https://github.com/GuangchuangYu/scatterpie)
----------------------------------------------------------
-
-    install.packages("scatterpie", repo=repo)
-
--   vignette: [scatter pie
-    plot](https://guangchuangyu.github.io/scatterpie/)
--   windows binary:
-    [scatterpie\_0.0.3.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.3.zip)
--   package source:
-    [scatterpie\_0.0.3.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.3.tar.gz)
 
 <!--
 
