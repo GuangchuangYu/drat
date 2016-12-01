@@ -1,5 +1,5 @@
 Package: scatterpie
-Version: 0.0.1
+Version: 0.0.2
 Depends: R (>= 3.3.0)
 Imports: ggforce, ggplot2, tidyr, utils
 Suggests: knitr, prettydoc, maps
