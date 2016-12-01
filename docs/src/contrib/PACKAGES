@@ -1,10 +1,10 @@
 Package: scatterpie
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.3.0)
 Imports: ggforce, ggplot2, tidyr, utils
 Suggests: knitr, prettydoc, maps
 License: Artistic-2.0
-MD5sum: 43b0a086f2f7a33934ea7961e52b52e7
+MD5sum: 00b99ea5f6a7b956927bc5c748732685
 NeedsCompilation: no
 
 Package: seqcombo
