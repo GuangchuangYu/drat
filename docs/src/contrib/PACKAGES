@@ -4,7 +4,7 @@ Depends: R (>= 3.3.0)
 Imports: ggforce, ggplot2, tidyr, utils
 Suggests: knitr, prettydoc, maps
 License: Artistic-2.0
-MD5sum: 10abbf590305e299a1c6dae08ec12db2
+MD5sum: 43b0a086f2f7a33934ea7961e52b52e7
 NeedsCompilation: no
 
 Package: seqcombo
