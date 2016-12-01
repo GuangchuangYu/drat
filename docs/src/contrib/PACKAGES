@@ -1,3 +1,12 @@
+Package: chinamap
+Version: 0.2.0
+Depends: R (>= 3.2.0)
+Imports: ggplot2
+Suggests: knitr, prettydoc
+License: Artistic-2.0
+MD5sum: 2c1c60b4a56ee4fa2dd25716a3bfcb63
+NeedsCompilation: no
+
 Package: scatterpie
 Version: 0.0.3
 Depends: R (>= 3.3.0)

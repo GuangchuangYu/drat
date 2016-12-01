@@ -12,7 +12,7 @@ output:
     highlight: github
 ---
 
-I have developed **3** packages on `CRAN` and **7** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install. 
+I have developed **3** packages on `CRAN` and **7** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install.
 
 If you are interesting, please visit their homepage to learn more.
 
@@ -28,7 +28,7 @@ If you are interesting, please visit their homepage to learn more.
 	- [GOSemSim](https://guangchuangyu.github.io/GOSemSim): `r ypages:::packageTitle('GOSemSim', 'BioC')`
 	- [meshes](https://guangchuangyu.github.io/meshes): `r ypages:::packageTitle('meshes', 'BioC')`
 	- [ReactomePA](https://guangchuangyu.github.io/ReactomePA): `r ypages:::packageTitle('ReactomePA', 'BioC')`
-	
+
 
 --------------------------------------------------------------------------------------------------
 
@@ -45,6 +45,30 @@ repo = c("https://cran.rstudio.com",
          "https://bioconductor.org/packages/release/bioc",
          "https://guangchuangyu.github.io/drat")
 ```
+
+
+## [chinamap](https://github.com/GuangchuangYu/chinamap)
+
+```r
+install.packages("scatterpie", repo=repo)
+```
+
+- vignette: [China Map](https://guangchuangyu.github.io/chinamap/)
+- windows binary: `r get_file(bindir, 'chinamap')`
+- package source: `r get_file(srcdir, 'chinamap')`
+
+
+
+## [scatterpie](https://github.com/GuangchuangYu/scatterpie)
+
+```r
+install.packages("scatterpie", repo=repo)
+```
+
+- vignette: [scatter pie plot](https://guangchuangyu.github.io/scatterpie/)
+- windows binary: `r get_file(bindir, 'scatterpie')`
+- package source: `r get_file(srcdir, 'scatterpie')`
+
 
 ## [seqcombo](https://github.com/GuangchuangYu/seqcombo)
 
@@ -65,16 +89,6 @@ install.packages("seqmagick", repo=repo)
 - vignette: [sequence manipulation](https://guangchuangyu.github.io/seqmagick/)
 - windows binary: `r get_file(bindir, 'seqmagick')`
 - package source: `r get_file(srcdir, 'seqmagick')`
-
-## [scatterpie](https://github.com/GuangchuangYu/scatterpie)
-
-```r
-install.packages("scatterpie", repo=repo)
-```
-
-- vignette: [scatter pie plot](https://guangchuangyu.github.io/scatterpie/)
-- windows binary: `r get_file(bindir, 'scatterpie')`
-- package source: `r get_file(srcdir, 'scatterpie')`
 
 
 <!--
