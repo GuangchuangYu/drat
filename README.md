@@ -47,9 +47,9 @@ This repo is mainly for my `R` packages that only hosted on `github`.
 -   vignette: [sequence recombination
     visualization](https://guangchuangyu.github.io/seqcombo/)
 -   windows binary:
-    [seqcombo\_0.0.4.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqcombo_0.0.4.zip)
+    [seqcombo\_0.0.4.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqcombo_0.0.4.zip)
 -   package source:
-    [seqcombo\_0.0.4.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/seqcombo_0.0.4.tar.gz)
+    [seqcombo\_0.0.4.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqcombo_0.0.4.tar.gz)
 
 [seqmagick](https://github.com/GuangchuangYu/seqmagick)
 -------------------------------------------------------
@@ -59,9 +59,9 @@ This repo is mainly for my `R` packages that only hosted on `github`.
 -   vignette: [sequence
     manipulation](https://guangchuangyu.github.io/seqmagick/)
 -   windows binary:
-    [seqmagick\_0.0.5.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.5.zip)
+    [seqmagick\_0.0.5.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.5.zip)
 -   package source:
-    [seqmagick\_0.0.5.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.5.tar.gz)
+    [seqmagick\_0.0.5.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.5.tar.gz)
 
 [scatterpie](https://github.com/GuangchuangYu/scatterpie)
 ---------------------------------------------------------
@@ -71,9 +71,9 @@ This repo is mainly for my `R` packages that only hosted on `github`.
 -   vignette: [scatter pie
     plot](https://guangchuangyu.github.io/scatterpie/)
 -   windows binary:
-    [scatterpie\_0.0.2.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.2.zip)
+    [scatterpie\_0.0.2.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.2.zip)
 -   package source:
-    [scatterpie\_0.0.2.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.2.tar.gz)
+    [scatterpie\_0.0.2.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.2.tar.gz)
 
 <!--
 
@@ -83,7 +83,7 @@ This repo is mainly for my `R` packages that only hosted on `github`.
 install.packages("skleid", repo=repo)
 ```
 
-- windows binary: [skleid_1.6.9.zip](https:/guangchuangyu.github.io/drat/bin/windows/contrib/3.3/skleid_1.6.9.zip)
-- package source: [skleid_1.6.9.tar.gz](https:/guangchuangyu.github.io/drat/src/contrib/skleid_1.6.9.tar.gz)
+- windows binary: [skleid_1.6.9.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/skleid_1.6.9.zip)
+- package source: [skleid_1.6.9.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/skleid_1.6.9.tar.gz)
 
 -->

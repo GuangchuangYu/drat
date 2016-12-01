@@ -4,6 +4,6 @@ get_file <- function(dir, pkg, md=TRUE, repo="https://guangchuangyu.github.io/dr
     if (!md) {
         return(basename(pkgfile))
     }
-    repo <- paste0(sub("/", "", repo), "/")
+    repo <- paste0(sub("/$", "", repo), "/")
     paste0("[", basename(pkgfile), "](", repo, pkgfile, ")")
 }

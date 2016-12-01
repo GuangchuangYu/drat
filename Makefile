@@ -2,10 +2,7 @@ html:
 	cd docs;\
 	Rscript -e 'rmarkdown::render("index.rmd")';\
 	Rscript -e 'rmarkdown::render("index.rmd", "md_document")';\
-	mv index.md ../README.md;\
-	git add .;\
-	git commit -m 'update docs';\
-	git push -u origin master
+	mv index.md ../README.md
 
 miniCRAN:
 	Rscript -e 'source("create_miniCRAN.R")';\
