@@ -1,4 +1,4 @@
-I have developed **3** packages on `CRAN` and **7** on `Bioconductor`.
+I have developed **4** packages on `CRAN` and **7** on `Bioconductor`.
 For `CRAN` packages, you can use `install.packages()` to install them
 directly and for `Bioconductor` packages, you need to follow the guide
 on package homepage by using `biocLite()` to install.
@@ -12,6 +12,8 @@ If you are interesting, please visit their homepage to learn more.
         Fonts for using in R
     -   [rvcheck](http://cran.r-project.org/package=rvcheck): R/Package
         Version Check
+    -   [scatterpie](http://cran.r-project.org/package=scatterpie):
+        Scatterpie Plot
 -   Bioconductor
     -   [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker):
         ChIPseeker for ChIP peak Annotation, Comparison, and
@@ -49,18 +51,6 @@ This repo is mainly for my `R` packages that only hosted on `github`.
     [chinamap\_0.2.0.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/chinamap_0.2.0.zip)
 -   package source:
     [chinamap\_0.2.0.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/chinamap_0.2.0.tar.gz)
-
-[scatterpie](https://github.com/GuangchuangYu/scatterpie)
----------------------------------------------------------
-
-    install.packages("scatterpie", repo=repo)
-
--   vignette: [scatter pie
-    plot](https://guangchuangyu.github.io/scatterpie/)
--   windows binary:
-    [scatterpie\_0.0.3.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/scatterpie_0.0.3.zip)
--   package source:
-    [scatterpie\_0.0.3.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/scatterpie_0.0.3.tar.gz)
 
 [seqcombo](https://github.com/GuangchuangYu/seqcombo)
 -----------------------------------------------------
