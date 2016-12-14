@@ -27,12 +27,12 @@ MD5sum: 691adf0fe4549cb8372f01a8b3b0f8a6
 NeedsCompilation: no
 
 Package: seqmagick
-Version: 0.0.5
-Depends: R (>= 3.3.0)
+Version: 0.0.6
+Depends: R (>= 3.2.0)
 Imports: Biostrings, magrittr, muscle, utils
 Suggests: knitr, prettydoc
 License: Artistic-2.0
-MD5sum: 712ff88487af7c0a12789d61f6aeecc6
+MD5sum: 8fd5fbb94dca59e5679f234a4a1ff4c2
 NeedsCompilation: no
 
 Package: skleid

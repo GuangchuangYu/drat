@@ -21,8 +21,8 @@ Suggests: knitr
 License: Artistic-2.0
 
 Package: seqmagick
-Version: 0.0.5
-Depends: R (>= 3.3.0)
+Version: 0.0.6
+Depends: R (>= 3.2.0)
 Imports: Biostrings, magrittr, muscle, utils
 Suggests: knitr, prettydoc
 License: Artistic-2.0
