@@ -72,9 +72,9 @@ This repo is mainly for my `R` packages that only hosted on `github`.
 -   vignette: [sequence
     manipulation](https://guangchuangyu.github.io/seqmagick/)
 -   windows binary:
-    [seqmagick\_0.0.5.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.5.zip)
+    [seqmagick\_0.0.6.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.6.zip)
 -   package source:
-    [seqmagick\_0.0.5.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.5.tar.gz)
+    [seqmagick\_0.0.6.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.6.tar.gz)
 
 <!--
 
