@@ -1,4 +1,5 @@
-I have developed **4** packages on `CRAN` and **7** on `Bioconductor`.
+<!-- don't edit README.md, edit docs/index.rmd instead -->
+I have developed **4** packages on `CRAN` and **8** on `Bioconductor`.
 For `CRAN` packages, you can use `install.packages()` to install them
 directly and for `Bioconductor` packages, you need to follow the guide
 on package homepage by using `biocLite()` to install.
@@ -32,6 +33,8 @@ If you are interesting, please visit their homepage to learn more.
         Enrichment and Semantic analyses
     -   [ReactomePA](https://guangchuangyu.github.io/ReactomePA):
         Reactome Pathway Analysis
+    -   [treeio](https://www.bioconductor.org/packages/treeio): Base
+        Classes and Functions for Phylogenetic Tree Input and Output
 
 ------------------------------------------------------------------------
 

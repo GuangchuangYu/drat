@@ -10,7 +10,9 @@ output:
     highlight: github
 ---
 
-I have developed **4** packages on `CRAN` and **7** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install.
+<!-- don't edit README.md, edit docs/index.rmd instead -->
+
+I have developed **4** packages on `CRAN` and **8** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install.
 
 If you are interesting, please visit their homepage to learn more.
 
@@ -31,7 +33,7 @@ packageTitle <- ypages:::packageTitle
 	- [GOSemSim](https://guangchuangyu.github.io/GOSemSim): `r packageTitle('GOSemSim', 'BioC')`
 	- [meshes](https://guangchuangyu.github.io/meshes): `r packageTitle('meshes', 'BioC')`
 	- [ReactomePA](https://guangchuangyu.github.io/ReactomePA): `r packageTitle('ReactomePA', 'BioC')`
-
+    - [treeio](https://www.bioconductor.org/packages/treeio): `r packageTitle('treeio', 'BioC')`
 
 --------------------------------------------------------------------------------------------------
 
