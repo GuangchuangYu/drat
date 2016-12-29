@@ -10,7 +10,7 @@ If you are interesting, please visit their homepage to learn more.
     -   [dlstats](http://cran.r-project.org/package=dlstats): Download
         Stats of R Packages
     -   [emojifont](http://cran.r-project.org/package=emojifont): Emoji
-        Fonts for using in R
+        and Font Awesome in Graphics
     -   [rvcheck](http://cran.r-project.org/package=rvcheck): R/Package
         Version Check
     -   [scatterpie](http://cran.r-project.org/package=scatterpie):
@@ -78,6 +78,12 @@ This repo is mainly for my `R` packages that only hosted on `github`.
     [seqmagick\_0.0.6.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.6.zip)
 -   package source:
     [seqmagick\_0.0.6.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.6.tar.gz)
+
+------------------------------------------------------------------------
+
+关注Y叔微信公众号biobabble
+
+![](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 
 <!--
 

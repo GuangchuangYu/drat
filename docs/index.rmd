@@ -85,6 +85,15 @@ install.packages("seqmagick", repo=repo)
 - package source: `r get_file(srcdir, 'seqmagick')`
 
 
+
+--------------------------------------------------------------
+
+关注Y叔微信公众号biobabble
+
+![](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
+
+
+
 <!--
 
 ## [skleid](https://github.com/GuangchuangYu/skleid)
