@@ -12,7 +12,7 @@ output:
 
 <!-- don't edit README.md, edit docs/index.rmd instead -->
 
-I have developed **4** packages on `CRAN` and **8** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install.
+I have developed **5** packages on `CRAN` and **8** on `Bioconductor`. For `CRAN` packages, you can use `install.packages()` to install them directly and for `Bioconductor` packages, you need to follow the guide on package homepage by using `biocLite()` to install.
 
 If you are interesting, please visit their homepage to learn more.
 
@@ -23,6 +23,7 @@ packageTitle <- ypages:::packageTitle
 + CRAN
 	- [dlstats](http://cran.r-project.org/package=dlstats): `r packageTitle('dlstats', 'CRAN')`
 	- [emojifont](http://cran.r-project.org/package=emojifont): `r packageTitle('emojifont', 'CRAN')`
+	- [ggimage](http://cran.r-project.org/package=ggimage): `r packageTitle('ggimage', 'CRAN')`
 	- [rvcheck](http://cran.r-project.org/package=rvcheck): `r packageTitle('rvcheck', 'CRAN')`
 	- [scatterpie](http://cran.r-project.org/package=scatterpie): `r packageTitle('scatterpie', 'CRAN')`
 + Bioconductor
