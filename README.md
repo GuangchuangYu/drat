@@ -1,5 +1,5 @@
 <!-- don't edit README.md, edit docs/index.rmd instead -->
-I have developed **5** packages on `CRAN` and **8** on `Bioconductor`.
+I have developed **6** packages on `CRAN` and **8** on `Bioconductor`.
 For `CRAN` packages, you can use `install.packages()` to install them
 directly and for `Bioconductor` packages, you need to follow the guide
 on package homepage by using `biocLite()` to install.
@@ -7,6 +7,8 @@ on package homepage by using `biocLite()` to install.
 If you are interesting, please visit their homepage to learn more.
 
 -   CRAN
+    -   [badger](http://cran.r-project.org/package=badger): Badge for R
+        Package
     -   [dlstats](http://cran.r-project.org/package=dlstats): Download
         Stats of R Packages
     -   [emojifont](http://cran.r-project.org/package=emojifont): Emoji
