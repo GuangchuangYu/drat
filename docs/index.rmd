@@ -16,8 +16,9 @@ I have developed **6** packages on `CRAN` and **8** on `Bioconductor`. For `CRAN
 
 If you are interesting, please visit their homepage to learn more.
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 packageTitle <- ypages:::packageTitle
+library(dlstats)
 ```
 
 + CRAN
@@ -27,6 +28,12 @@ packageTitle <- ypages:::packageTitle
 	- [ggimage](http://cran.r-project.org/package=ggimage): `r packageTitle('ggimage', 'CRAN')`
 	- [rvcheck](http://cran.r-project.org/package=rvcheck): `r packageTitle('rvcheck', 'CRAN')`
 	- [scatterpie](http://cran.r-project.org/package=scatterpie): `r packageTitle('scatterpie', 'CRAN')`
+
+```{r width=6.6, height=4}
+dlstats::plot_cran_stats()
+```
+
+
 + Bioconductor
 	- [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker): `r packageTitle('ChIPseeker', 'BioC')`
 	- [clusterProfiler](https://guangchuangyu.github.io/clusterProfiler): `r packageTitle('clusterProfiler', 'BioC')`
@@ -37,7 +44,11 @@ packageTitle <- ypages:::packageTitle
 	- [ReactomePA](https://guangchuangyu.github.io/ReactomePA): `r packageTitle('ReactomePA', 'BioC')`
     - [treeio](https://www.bioconductor.org/packages/treeio): `r packageTitle('treeio', 'BioC')`
 
---------------------------------------------------------------------------------------------------
+```{r width=6.6, height=4}
+dlstats::plot_bioc_stats()
+```
+
+-----
 
 This repo is mainly for my `R` packages that only hosted on `github`.
 

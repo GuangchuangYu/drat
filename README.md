@@ -19,6 +19,13 @@ If you are interesting, please visit their homepage to learn more.
         Version Check
     -   [scatterpie](http://cran.r-project.org/package=scatterpie):
         Scatterpie Plot
+
+<!-- -->
+
+    dlstats::plot_cran_stats()
+
+![](index_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+
 -   Bioconductor
     -   [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker):
         ChIPseeker for ChIP peak Annotation, Comparison, and
@@ -39,6 +46,12 @@ If you are interesting, please visit their homepage to learn more.
         Reactome Pathway Analysis
     -   [treeio](https://www.bioconductor.org/packages/treeio): Base
         Classes and Functions for Phylogenetic Tree Input and Output
+
+<!-- -->
+
+    dlstats::plot_bioc_stats()
+
+![](index_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 ------------------------------------------------------------------------
 

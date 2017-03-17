@@ -2,7 +2,9 @@ html:
 	cd docs;\
 	Rscript -e 'rmarkdown::render("index.rmd")';\
 	Rscript -e 'rmarkdown::render("index.rmd", "md_document")';\
-	mv index.md ../README.md
+	mv index.md ../README.md;\
+	rm -rf ../index_files;\
+	mv index_files ../
 
 miniCRAN:
 	Rscript -e 'source("create_miniCRAN.R")';\
