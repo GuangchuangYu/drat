@@ -29,7 +29,7 @@ library(dlstats)
 	- [rvcheck](http://cran.r-project.org/package=rvcheck): `r packageTitle('rvcheck', 'CRAN')`
 	- [scatterpie](http://cran.r-project.org/package=scatterpie): `r packageTitle('scatterpie', 'CRAN')`
 
-```{r width=6.6, height=4}
+```{r width=6.6, height=4, echo=FALSE}
 dlstats::plot_cran_stats()
 ```
 
@@ -44,7 +44,7 @@ dlstats::plot_cran_stats()
 	- [ReactomePA](https://guangchuangyu.github.io/ReactomePA): `r packageTitle('ReactomePA', 'BioC')`
     - [treeio](https://www.bioconductor.org/packages/treeio): `r packageTitle('treeio', 'BioC')`
 
-```{r width=6.6, height=4}
+```{r width=6.6, height=4, echo=FALSE}
 dlstats::plot_bioc_stats()
 ```
 
@@ -98,12 +98,6 @@ install.packages("seqmagick", repo=repo)
 - package source: `r get_file(srcdir, 'seqmagick')`
 
 
-
---------------------------------------------------------------
-
-关注Y叔微信公众号biobabble
-
-![](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 
 
 

@@ -20,10 +20,6 @@ If you are interesting, please visit their homepage to learn more.
     -   [scatterpie](http://cran.r-project.org/package=scatterpie):
         Scatterpie Plot
 
-<!-- -->
-
-    dlstats::plot_cran_stats()
-
 ![](index_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
 -   Bioconductor
@@ -46,10 +42,6 @@ If you are interesting, please visit their homepage to learn more.
         Reactome Pathway Analysis
     -   [treeio](https://www.bioconductor.org/packages/treeio): Base
         Classes and Functions for Phylogenetic Tree Input and Output
-
-<!-- -->
-
-    dlstats::plot_bioc_stats()
 
 ![](index_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
@@ -95,12 +87,6 @@ This repo is mainly for my `R` packages that only hosted on `github`.
     [seqmagick\_0.0.6.zip](https://guangchuangyu.github.io/drat/bin/windows/contrib/3.3/seqmagick_0.0.6.zip)
 -   package source:
     [seqmagick\_0.0.6.tar.gz](https://guangchuangyu.github.io/drat/src/contrib/seqmagick_0.0.6.tar.gz)
-
-------------------------------------------------------------------------
-
-关注Y叔微信公众号biobabble
-
-![](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 
 <!--
 
