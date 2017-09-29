@@ -18,7 +18,7 @@ If you are interesting, please visit their homepage to learn more.
     -   [rvcheck](http://cran.r-project.org/package=rvcheck): R/Package
         Version Check
     -   [scatterpie](http://cran.r-project.org/package=scatterpie):
-        Scatterpie Plot
+        Scatter Pie Plot
 
 ![](index_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
