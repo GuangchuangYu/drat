@@ -1,3 +1,57 @@
+Package: Biobase
+Version: 2.36.2
+Depends: R (>= 2.10), BiocGenerics (>= 0.3.2), utils
+Imports: methods
+Suggests: tools, tkWidgets, ALL, RUnit, golubEsets
+License: Artistic-2.0
+MD5sum: 8854eb70acabb07b55d2953fb1ecff31
+NeedsCompilation: yes
+
+Package: BiocGenerics
+Version: 0.22.0
+Depends: methods, utils, graphics, stats, parallel
+Imports: methods, utils, graphics, stats, parallel
+Suggests: Biobase, S4Vectors, IRanges, GenomicRanges, AnnotationDbi,
+        oligoClasses, oligo, affyPLM, flowClust, affy, DESeq2, MSnbase,
+        annotate, RUnit
+License: Artistic-2.0
+MD5sum: ef910f2011c0652e1f5fdf3b14219490
+NeedsCompilation: no
+
+Package: BiocParallel
+Version: 1.10.1
+Depends: methods
+Imports: stats, utils, futile.logger, parallel, snow
+Suggests: BiocGenerics, tools, foreach, BatchJobs, BBmisc, doParallel,
+        Rmpi, GenomicRanges, RNAseqData.HNRNPC.bam.chr14, Rsamtools,
+        GenomicAlignments, ShortRead, codetools, RUnit, BiocStyle,
+        knitr
+License: GPL-2 | GPL-3
+MD5sum: 0b587026c0e2c5945be1d84deb12d7dd
+NeedsCompilation: no
+
+Package: Biostrings
+Version: 2.44.2
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.15.6), S4Vectors (>=
+        0.13.13), IRanges (>= 2.9.18), XVector (>= 0.11.6)
+Imports: graphics, methods, stats, utils
+LinkingTo: S4Vectors, IRanges, XVector
+Suggests: BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+        1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+        BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+        hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy
+        (>= 1.41.3), affydata (>= 1.11.5), RUnit
+Enhances: Rmpi
+License: Artistic-2.0
+MD5sum: b30d8c116493ea160a0ca0a662666436
+NeedsCompilation: yes
+
+Package: bitops
+Version: 1.0-6
+License: GPL (>= 2)
+MD5sum: fba16485a51b1ccd354abde5816b6bdd
+NeedsCompilation: yes
+
 Package: chinamap
 Version: 0.2.0
 Depends: R (>= 3.2.0)
@@ -6,6 +60,187 @@ Suggests: knitr, prettydoc
 License: Artistic-2.0
 MD5sum: 2c1c60b4a56ee4fa2dd25716a3bfcb63
 NeedsCompilation: no
+
+Package: DelayedArray
+Version: 0.2.7
+Depends: R (>= 3.4), methods, BiocGenerics, S4Vectors (>= 0.14.3),
+        IRanges, matrixStats
+Imports: stats
+Suggests: Matrix, HDF5Array, genefilter, BiocStyle
+License: Artistic-2.0
+MD5sum: a03b9a92745b7bcac4c0ed44ed6b2272
+NeedsCompilation: no
+
+Package: futile.logger
+Version: 1.4.3
+Depends: R (>= 3.0.0)
+Imports: utils, lambda.r (>= 1.1.0), futile.options
+Suggests: testthat, jsonlite
+License: LGPL-3
+MD5sum: ba0e8d2dfb5a970b51c21907bbf8bfc2
+NeedsCompilation: no
+
+Package: futile.options
+Version: 1.0.0
+Depends: R (>= 2.8.0)
+License: LGPL-3
+MD5sum: 8fd845774bbce56f41f7c43c3b4c13ba
+NeedsCompilation: no
+
+Package: GenomeInfoDb
+Version: 1.12.2
+Depends: R (>= 3.1), methods, BiocGenerics (>= 0.13.8), S4Vectors (>=
+        0.9.25), IRanges (>= 1.99.26)
+Imports: stats, stats4, utils, RCurl, GenomeInfoDbData
+Suggests: GenomicRanges, Rsamtools, GenomicAlignments, BSgenome,
+        GenomicFeatures, BSgenome.Scerevisiae.UCSC.sacCer2,
+        BSgenome.Celegans.UCSC.ce2, BSgenome.Hsapiens.NCBI.GRCh38,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene, RUnit, BiocStyle, knitr
+License: Artistic-2.0
+MD5sum: 55b5399d9c8c58b093dfa5f69f8ce2cc
+NeedsCompilation: no
+
+Package: GenomicAlignments
+Version: 1.12.2
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.15.3), S4Vectors (>=
+        0.13.13), IRanges (>= 2.5.36), GenomeInfoDb (>= 1.11.5),
+        GenomicRanges (>= 1.27.19), SummarizedExperiment (>= 1.5.3),
+        Biostrings (>= 2.37.1), Rsamtools (>= 1.21.4)
+Imports: methods, utils, stats, BiocGenerics, S4Vectors, IRanges,
+        GenomicRanges, Biostrings, Rsamtools, BiocParallel
+LinkingTo: S4Vectors, IRanges
+Suggests: ShortRead, rtracklayer, BSgenome, GenomicFeatures,
+        RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+        BSgenome.Dmelanogaster.UCSC.dm3, BSgenome.Hsapiens.UCSC.hg19,
+        DESeq2, edgeR, RUnit, BiocStyle
+License: Artistic-2.0
+MD5sum: c4d38b87090bc2e5747574c3e3daedad
+NeedsCompilation: yes
+
+Package: GenomicRanges
+Version: 1.28.5
+Depends: R (>= 2.10), methods, stats4, BiocGenerics (>= 0.21.2),
+        S4Vectors (>= 0.9.47), IRanges (>= 2.9.11), GenomeInfoDb (>=
+        1.11.5)
+Imports: utils, stats, XVector
+LinkingTo: S4Vectors, IRanges
+Suggests: Biobase, AnnotationDbi (>= 1.21.1), annotate, Biostrings (>=
+        2.25.3), Rsamtools (>= 1.13.53), SummarizedExperiment (>=
+        0.1.5), Matrix, GenomicAlignments, rtracklayer, BSgenome,
+        GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+        DESeq2, DEXSeq, edgeR, KEGGgraph, BiocStyle, digest, RUnit,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Scerevisiae.UCSC.sacCer2,
+        KEGG.db, hgu95av2.db, org.Hs.eg.db, org.Mm.eg.db,
+        org.Sc.sgd.db, pasilla, pasillaBamSubset,
+        TxDb.Athaliana.BioMart.plantsmart22,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        BSgenome.Mmusculus.UCSC.mm10,
+        TxDb.Mmusculus.UCSC.mm10.knownGene,
+        RNAseqData.HNRNPC.bam.chr14, hgu95av2probe
+License: Artistic-2.0
+MD5sum: 5b11897331c4371e09133ea3be125c03
+NeedsCompilation: yes
+
+Package: IRanges
+Version: 2.10.3
+Depends: R (>= 3.1.0), methods, utils, stats, BiocGenerics (>= 0.21.1),
+        S4Vectors (>= 0.13.17)
+Imports: stats4
+LinkingTo: S4Vectors
+Suggests: XVector, GenomicRanges, GenomicFeatures, GenomicAlignments,
+        BSgenome.Celegans.UCSC.ce2, RUnit
+License: Artistic-2.0
+MD5sum: 8fd2a39934de72affef35df8bdf53636
+NeedsCompilation: yes
+
+Package: lambda.r
+Version: 1.2
+Depends: R (>= 3.0.0)
+Suggests: RUnit
+License: LGPL-3
+MD5sum: bda49898b85ad5902880a31f43b432e2
+NeedsCompilation: no
+
+Package: lattice
+Version: 0.20-35
+Priority: recommended
+Depends: R (>= 3.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra
+Enhances: chron
+License: GPL (>= 2)
+MD5sum: 07f1814623b3da6278ca61554ff7bfe6
+NeedsCompilation: yes
+
+Package: magrittr
+Version: 1.5
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+MD5sum: e74ab7329f2b9833f0c3c1216f86d65a
+NeedsCompilation: no
+
+Package: Matrix
+Version: 1.2-11
+Priority: recommended
+Depends: R (>= 3.0.1)
+Imports: methods, graphics, grid, stats, utils, lattice
+Suggests: expm, MASS
+Enhances: MatrixModels, graph, SparseM, sfsmisc
+License: GPL (>= 2) | file LICENCE
+MD5sum: a8c1a893f36d7ea918ddbf8cb8d10b43
+NeedsCompilation: yes
+
+Package: matrixStats
+Version: 0.52.2
+Depends: R (>= 2.12.0)
+Suggests: base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp
+License: Artistic-2.0
+MD5sum: 41b987d3ae96ee6895875c413adcba3c
+NeedsCompilation: yes
+
+Package: muscle
+Version: 3.18.0
+Depends: Biostrings
+License: Unlimited
+MD5sum: f1a796d5af24eda8e1c9167687532ee6
+NeedsCompilation: yes
+
+Package: RCurl
+Version: 1.95-4.8
+Depends: R (>= 3.0.0), methods, bitops
+Suggests: Rcompression, XML
+License: BSD
+MD5sum: 9c8aaff986eb2792c89dd3ae54d21580
+NeedsCompilation: yes
+
+Package: Rsamtools
+Version: 1.28.0
+Depends: methods, GenomeInfoDb (>= 1.1.3), GenomicRanges (>= 1.21.6),
+        Biostrings (>= 2.37.1)
+Imports: utils, BiocGenerics (>= 0.1.3), S4Vectors (>= 0.13.8), IRanges
+        (>= 2.3.7), XVector (>= 0.15.1), zlibbioc, bitops, BiocParallel
+LinkingTo: S4Vectors, IRanges, XVector, Biostrings
+Suggests: GenomicAlignments, ShortRead (>= 1.19.10), GenomicFeatures,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene, KEGG.db,
+        TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14,
+        BSgenome.Hsapiens.UCSC.hg19, pasillaBamSubset, RUnit, BiocStyle
+License: Artistic-2.0 | file LICENSE
+MD5sum: 313bceac68edec07f2ee466520461d35
+NeedsCompilation: yes
+
+Package: S4Vectors
+Version: 0.14.4
+Depends: R (>= 3.3.0), methods, utils, stats, stats4, BiocGenerics (>=
+        0.21.1)
+Imports: methods, utils, stats, stats4, BiocGenerics
+Suggests: IRanges, GenomicRanges, Matrix, ShortRead, graph, data.table,
+        RUnit
+License: Artistic-2.0
+MD5sum: 08ccc46e6d39f3aa9091f868ecec1f70
+NeedsCompilation: yes
 
 Package: seqmagick
 Version: 0.0.7
@@ -26,3 +261,42 @@ Suggests: knitr
 License: file LICENSE
 MD5sum: c153296299707069b9c6e9f4a5658fb6
 NeedsCompilation: no
+
+Package: snow
+Version: 0.4-2
+Depends: R (>= 2.13.1), utils
+Suggests: Rmpi,rlecuyer,nws
+License: GPL
+MD5sum: afc7b0dfd4518aedb6fc81712fd2ac70
+NeedsCompilation: no
+
+Package: SummarizedExperiment
+Version: 1.6.4
+Depends: R (>= 3.2), methods, GenomicRanges (>= 1.27.22), Biobase,
+        DelayedArray (>= 0.1.9)
+Imports: utils, stats, tools, Matrix, BiocGenerics (>= 0.15.3),
+        S4Vectors (>= 0.13.13), IRanges (>= 2.7.2), GenomeInfoDb (>=
+        1.11.4)
+Suggests: annotate, AnnotationDbi, hgu95av2.db, GenomicFeatures,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, BiocStyle, knitr, rmarkdown,
+        digest, jsonlite, rhdf5, HDF5Array (>= 1.4.8), airway, RUnit
+License: Artistic-2.0
+MD5sum: 6af22daa4f7a609d2f5dc08260c0a77e
+NeedsCompilation: no
+
+Package: XVector
+Version: 0.16.0
+Depends: R (>= 2.8.0), methods, BiocGenerics (>= 0.19.2), S4Vectors (>=
+        0.13.13), IRanges (>= 2.9.18)
+Imports: methods, zlibbioc, BiocGenerics, S4Vectors, IRanges
+LinkingTo: S4Vectors, IRanges
+Suggests: Biostrings, drosophila2probe, RUnit
+License: Artistic-2.0
+MD5sum: 839426de12cbb570c85f27f8e7afb144
+NeedsCompilation: yes
+
+Package: zlibbioc
+Version: 1.22.0
+License: Artistic-2.0 + file LICENSE
+MD5sum: 2e9496b860270d2e73d1305b8c6c69a5
+NeedsCompilation: yes

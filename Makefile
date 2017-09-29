@@ -7,6 +7,6 @@ html:
 	mv index_files ../
 
 miniCRAN:
-	Rscript -e 'source("create_miniCRAN.R"); updateRepoIndex("docs"); create_miniCRAN("seqmagick")';\
+	Rscript -e 'source("create_miniCRAN.R"); create_miniCRAN("seqmagick")';\
 	git add .; git commit -m 'update repo'; git push -u origin master
 
