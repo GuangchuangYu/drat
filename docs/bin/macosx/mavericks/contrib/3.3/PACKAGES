@@ -1,9 +1,0 @@
-Package: seqcombo
-Version: 0.0.4
-Depends: R (>= 3.3.0)
-Imports: Biostrings, cowplot, dplyr, ggplot2, grid, magrittr, methods,
-        stats4
-Suggests: knitr
-License: Artistic-2.0
-MD5sum: dc93d63e459e79f3b37d977950fa8c0c
-
