@@ -1,0 +1,28 @@
+Package: chinamap
+Version: 0.2.0
+Depends: R (>= 3.2.0)
+Imports: ggplot2
+Suggests: knitr, prettydoc
+License: Artistic-2.0
+MD5sum: 2c1c60b4a56ee4fa2dd25716a3bfcb63
+NeedsCompilation: no
+
+Package: seqmagick
+Version: 0.0.7
+Depends: R (>= 3.2.0)
+Imports: Biostrings, GenomicAlignments, GenomicRanges, IRanges,
+        magrittr, muscle, Rsamtools, utils
+Suggests: knitr, prettydoc
+License: Artistic-2.0
+MD5sum: 7015d3ad1f75f6f0059cde9501f3b3de
+NeedsCompilation: no
+
+Package: skleid
+Version: 1.6.10
+Depends: R (>= 3.3.0)
+Imports: Biostrings, muscle, magrittr, markdown, RCurl, shiny,
+        shinyFiles, utils
+Suggests: knitr
+License: file LICENSE
+MD5sum: c153296299707069b9c6e9f4a5658fb6
+NeedsCompilation: no
